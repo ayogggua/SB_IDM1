@@ -5,7 +5,11 @@
 # @Link    : http://example.org
 # @Version : $Id$
 
-import main_SB
+from main_SB import IDM1_SB
 
 class SB_0522_K(IDM1_SB):
-    pass
+     def gaojiaban(self,SB_level):
+        print('Kidmanshishadiao 233333')
+
+Kidman = SB_0522_K('kidman','M' ,'LHTTD',8, 500)
+Kidman.information()
