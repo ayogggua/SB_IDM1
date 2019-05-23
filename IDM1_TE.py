@@ -8,7 +8,7 @@ import random
 from main_SB import IDM1_SB
 
 class Henry(IDM1_SB):
-    def laber(self):
+    def label(self):
         print('this is IDM1 stupid Henry and his team')
     def random_SBTE(self,n,m): #随机增加沙雕指数
         self.SB_level+=random.randint(n,m)
