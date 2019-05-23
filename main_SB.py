@@ -8,4 +8,4 @@ class IDM1_SB(object):
 		self.S_level = S_level
 		self.SB_level = SB_level
 	def information(self):
-		print('name:s%,gender:%s,department:%s,S_level:%s,SB_level:%s'%(self.name,self.gender,self.department,self.S_level,self.SB_level))
+		print("name:%s,gender:%s,department:%s,S_level:%s,SB_level:%s"%(self.name,self.gender,self.department,self.S_level,self.SB_level))
