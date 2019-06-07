@@ -1,5 +1,7 @@
 import random
+import pysnooper
 import time
+# @pysnooper.snoop()
 def vcode(chart_len = 4):
     global v_code
     v_chart = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
@@ -14,7 +16,7 @@ def vcode(chart_len = 4):
         v_code_list.append(v_chart_list[index])
     v_code = ''.join(v_code_list)
     print(v_code)
-    return v_code
+
 
 def trigger():
     zhongjianghaoma = 'aJ3f'
@@ -32,3 +34,4 @@ def trigger():
           continue
 if __name__ == '__main__':
     trigger()
+    vcode()

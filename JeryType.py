@@ -4,6 +4,10 @@ import random
 
 
 class Jery(IDM1_SB):
+	def __init__(self,name, gender, S_level, SB_level):
+		IDM1_SB.__init__(self, name, gender, S_level, SB_level)
+		self.department = 'SWRD'
+		self.SB_level = SB_level
 	# 0523 add function
 	def label(self):
 		print('This is SB type from fucking stupid Jery')

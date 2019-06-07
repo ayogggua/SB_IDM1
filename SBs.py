@@ -1,6 +1,7 @@
 from JeryType import Jery
 
-jery = Jery('JERY', 'M', 'IDM1', 10, 66)
-jery.information()
+jery = Jery('jery', 'M', 10, 100 )
+print(jery.department)
+
 jery.give_sblevel()
 jery.information()
