@@ -17,8 +17,10 @@ def main():
         filenames.append(i)
     print(filenames)
     csvname = time.strftime("%m-%d", time.localtime(int(time.time())))
+    ##This for py2.7
+    # with open('log' + csvname + '.csv', 'wb') as result:
     with open('log' + csvname + '.csv', 'w+', newline='') as result:
-        result_write = csv.writer(result)
+        result_write = csv.writer(result, delimiter=',')
         for filename, m in zip(filenames, range(len(filenames))):
             print(filename)
             with open(filename, 'r') as fs:
