@@ -1,0 +1,1 @@
+dict_keys(['slot', 'phases', 'test_mode', 'start_time_millis', 'outcome_details', 'end_time_millis', 'station_id', 'dut_id', 'log_records', 'outcome', 'metadata'])
